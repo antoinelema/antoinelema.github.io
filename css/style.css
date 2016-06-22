@@ -1,0 +1,285 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);  /*font des titres*/
+*{margin: 0;padding: 0;}
+
+/* les parties*/
+
+/* == le contenu des ecrans*/
+/* == ecran 2 text*/
+/*ecran 3*/
+/* == ecran 4 text*/
+/* == ecran5 text*/
+/* == ecran6 */
+/* == la silhouete*/
+/* == les flèches de navigation*/
+/* == l'overlay dans le haut*/
+
+
+
+body{
+  background-image: url(../ressource/pont_sydney2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 600vw;
+  display: flex;
+  /*background-size: cover;*/
+  overflow: hidden;
+}
+
+
+.ecran1, .ecran2, .ecran3, .ecran4, .ecran5, .ecran6{
+  width: 100vw;
+}
+
+/* == le contenu des ecrans */
+
+.content{
+  position: relative;
+  height: 105vh;
+  width: 70vw;
+  left: 15vw;
+  margin-top: -3%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.ecran1 h1, .ecran2 h1, .ecran3 h1, .ecran4 h1, .ecran5 h1, .ecran6 h1{
+  margin-left: 1%;
+  padding-top: 4%;
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5em;
+  text-decoration:underline;
+}
+
+/* == ecran 2 text*/
+
+.ecran2 .text {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 3%;
+  color: black;
+  top:17vh;
+  /*box-shadow:7px 7px 7px #444444;*/
+  font-size: 1.3em;
+  border-radius: 12px;
+}
+
+/* == ecran 3*/
+.infoperso{
+  margin-top: 17vh;
+  color: white;
+  font-size: 1.5em;
+}
+
+
+/*== ecran 4 text*/
+.ecran4 {
+
+}
+.ecran4 .formation{
+  color: white;
+  margin-top:15vh;
+  font-size: 1.3em;
+}
+.ecran4 .exp{
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2%;
+  padding-top: 1%;
+  /*margin-top: 25vh;*/
+  border-radius: 12px;
+  font-size: 1.2em;
+}
+
+/* == ecran5 text*/
+.ecran5 .text{
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 3%;
+  top:20vh;
+  border-radius: 12px;
+  font-size: 1.3em;
+}
+
+/* == ecran6 */
+
+.ecran6 .form{
+  margin-top:9vh;
+}
+
+.ecran6 label{
+  color:white;
+}
+
+
+/* == la silhouete*/
+#moi{
+  margin-left:30vw;
+  margin-top: 10%;
+  position: fixed;
+  z-index: 1000;
+}
+
+
+/*== les flèches de navigation*/
+
+.btn {
+  color: white;
+  font-size: 15vh !important;
+  position: fixed;
+  top:40vh;
+  -webkit-transition:opacity .5s ease-out;
+  -moz-transition:opacity .5s ease-out;
+  -ms-transition:opacity .5s ease-out;
+  -o-transition:opacity .5s ease-out;
+  transition:opacity .5s ease-out;
+  opacity:0.5;
+}
+
+.btn:hover {
+  color: white;
+  opacity:1;
+}
+
+.btn1{
+  left:90vw;
+}
+
+.btn2{
+  left:1vw;
+  top:40vh;
+  font-size: 200px;
+}
+
+
+/* == navigation en forme de radio dans le bas*/
+.menuradio{
+  margin-top: 86vh;
+  z-index: 1000;
+  position: fixed;
+  margin-left: 30vw;
+}
+
+.menuradio ul li{
+  display: inline;
+  margin-left: 1vw;
+}
+
+.menuradio ul li i{
+  color: white;
+}
+
+
+.tooltiptext {
+    animation: pulse 2s infinite;
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+    text-align: center;                    /*le texte au dessu des boutons de navigation*/
+    border-radius: 6px;                    /*du bas, qui est caché*/
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    margin-left: -60px;
+}
+
+.menuradio ul li a:hover .tooltiptext {
+  visibility: visible;                  /*avec un hover le texte de la nav s'affiche*/
+}
+
+
+
+/*== l'overlay dans le haut*/
+.overlay{
+  background-color: rgba(255,255,255,0.7);
+  position: fixed;
+  /*height: 400px;*/
+  width: 100vw;
+  z-index: 100;
+  display: none;
+
+}
+
+.overlay ul li{
+  list-style:none;
+  width: auto;
+  display:inline;
+}
+
+.overlay ul li h2{
+  font-family: 'Kaushan Script', cursive;
+}
+
+.overlay ul li img{
+  height: 12vh;
+  width: auto;
+  padding: 1vh;
+  animation: rotateOut 0.5s  ;
+}
+
+.overlay ul li a img:hover{
+  transform: rotate(-40deg);
+  animation: rotateIn 0.5s  ;
+}
+
+#toggleOverlay{
+  background-color: rgba(255,255,255,0.7);
+  position: fixed;
+  padding:1vh;
+  border-radius:0 0 10px 10px;
+  z-index: 1001;
+  width: 12vw;
+}
+
+#toggleOverlay p{
+
+  font-family: 'Kaushan Script';
+  color: black;
+  font-size: 1.3em;
+
+}
+
+
+
+
+
+
+/*== les animations*/
+
+/*animation pulse*/
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255,255,255,0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(255,255,255,0.4);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255,255,255,0.4);
+    box-shadow: 0 0 0 0 rgba(255,255,255,0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(255,255,255,0);
+      box-shadow: 0 0 0 10px rgba(255,255,255,0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(255,255,255,0));
+      box-shadow: 0 0 0 0 rgba(255,255,255,0);
+  }
+}
+
+/*animation rotate*/
+@keyframes rotateIn {
+     0% {transform: rotate(0deg);}
+     /*50%  {transform: rotate(-30deg);}*/
+     100%   {transform: rotate(-40deg);}
+}
+@keyframes rotateOut {
+     0% {transform: rotate(-40deg);}
+      /*50%  {transform: rotate(-30deg);}*/
+     100%   {transform: rotate(-0deg);}
+}
