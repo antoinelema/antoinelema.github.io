@@ -1,0 +1,19 @@
+#toggleOverlay{
+
+}
+
+h1{
+  color:red !important;
+}
+
+#moi{
+  opacity: 0;
+}
+
+.overlay, #toggleOverlay{
+  display: none;
+}
+
+.btn, .btn:hover{
+  opacity: 0 !important;
+}
