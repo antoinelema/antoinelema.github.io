@@ -1,19 +1,32 @@
+
+<!-- == l'overlay avec les reseaux socieaux -->
+<!-- == ecran1 -->
+<!-- == navigation bar -->
+<!-- == Presentation ecran2 -->
+<!-- == competences ecran3 -->
+<!-- == experiences et fomation ecran4 -->
+<!-- == centres d'interets ecran5 -->
+<!-- == contact ecran6 -->
+<!-- == script  -->
+
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Mon Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css"  title="no title" charset="utf-8">
-    <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/mobile-tablette.css" />
+    <link rel="stylesheet" media="screen and (max-width: 765px)" href="css/mobile-tablette.css" />
 
   </head>
 
-  <body data-stellar-background-ratio="0.3">  <!-- vitesse du defilement parralax a ajuster sur les differantes taille d'ecrans -->
+  <body class="row" data-stellar-background-ratio="0.3">  <!-- vitesse du defilement parralax a ajuster sur les differantes taille d'ecrans -->
 
-    <!-- l'overlay avec les reseaux socieaux -->
+    <!-- == l'overlay avec les reseaux socieaux -->
 
-            <div class="overlay">
+            <div class="row overlay">
               <ul class="col-xs-offset-4">
                 <!-- <li class="col-xs-4"><h2>Contactez moi :</h2></li> -->
                 <li class="col-xs-2 pulse"><a href=''><img src="./ressource/icons/twitter_couleur.svg" alt="icone twiter" /></a></li>
@@ -31,16 +44,17 @@
 <!-- == ecran1 -->
     <div class="ecran1" id="ecran1" data-stellar-offset-parent="true" >
   <!-- debut de la class content (fond noir transparent) -->
-      <div class="content">
-        <h1>Antoine Lemariey</h1>
+      <div class="content row">
+        <h1 class=" col-xs-offset-3 col-xs-6 col-md-offset-1 col-md-8">Antoine Lemariey</h1>
         <div class="row">
-          <img id="moi" class="col-xs-offset-5" src="ressource/moi.png " alt="moi" data-stellar-background-ratio="0.5"/>
+          <img id="moi" src="ressource/moi.png " alt="moi" data-stellar-background-ratio="0.5"/>
         </div>
 
 
     <!-- == navigation bar -->
         <!-- menu en forme de radio-->
-            <div class="menuradio">
+            <div class="row">
+              <div class="col-xs-offset-3 col-xs-6 menuradio">
               <ul>
                 <li><a id="bulet1" href="#ecran1"><i class="bulet fa fa-dot-circle-o" >
                   <div class="tooltiptext" >Home</div>
@@ -58,10 +72,10 @@
                   <div class="tooltiptext" >Centre d'interêts</div>
                 </i></a></li>
                 <li><a id="bulet6" href="#ecran6"><i class="bulet fa fa-circle-o">
-                  <div class="tooltiptext" >Contact</div>
+                  <div class="tooltiptext">Contact</div>
                 </i></a></li>
               </ul>
-
+              </div>
             </div>
       </div>
     </div>

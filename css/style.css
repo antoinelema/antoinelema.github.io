@@ -5,12 +5,13 @@
 
 /* == le contenu des ecrans*/
 /* == ecran 2 text*/
-/*ecran 3*/
+/* == ecran 3*/
 /* == ecran 4 text*/
 /* == ecran5 text*/
 /* == ecran6 */
 /* == la silhouete*/
 /* == les flèches de navigation*/
+/* == navigation en forme de radio dans le bas*/
 /* == l'overlay dans le haut*/
 
 
@@ -111,8 +112,10 @@ body{
 
 /* == la silhouete*/
 #moi{
-  margin-left:30vw;
-  margin-top: 10%;
+  /*width: 15%;
+  height: auto;*/
+  /*margin-left:30vw;*/
+  margin-top: 15%;
   position: fixed;
   z-index: 1000;
 }
@@ -154,7 +157,7 @@ body{
   margin-top: 86vh;
   z-index: 1000;
   position: fixed;
-  margin-left: 30vw;
+  /*margin-left: 30vw;*/
 }
 
 .menuradio ul li{
@@ -196,7 +199,6 @@ body{
   width: 100vw;
   z-index: 100;
   display: none;
-
 }
 
 .overlay ul li{

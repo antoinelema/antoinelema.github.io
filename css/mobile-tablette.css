@@ -17,3 +17,14 @@ h1{
 .btn, .btn:hover{
   opacity: 0 !important;
 }
+
+.content{
+  width: 97vw;
+}
+
+.ecran1 h1{
+  top:40vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
