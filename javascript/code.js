@@ -11,7 +11,9 @@
 // la variable i defini l'ecran sur lrquelle on se trouve
 
 
+
 $(document).ready(function(){
+
   // $("body").mousewheel(function(event, delta) { //
   //   this.scrollLeft -= (delta * 30);            //fonction qui transforme le scrolling vertical en scrolling horizontal
   //   event.preventDefault();                     //
@@ -21,13 +23,13 @@ $(document).ready(function(){
 
 // == fonction toggleOverlay
   var position= $("#toggleOverlay").position();
-  var  top=position.top;
+  var top=position.top;
 
   $('#toggleOverlay').click(function() {
     animateOverlay();
     $('.overlay').slideToggle('slow');
-    $(this).animate({
       top:top,
+      $(this).animate({
       },
       600);
     });
@@ -125,6 +127,9 @@ function ecran1(){
         queue: false,
         duration: 300
       });
+      // else if (i==) {
+      //
+      // }
     }
 
 
@@ -141,7 +146,7 @@ function ecran1(){
 
 
 
-  var $horizontal = $('#moi'),    //variable pour la silhouette
+  var $horizontal = $('#moi');  //variable pour la silhouette
       // s = $(this).scrollLeft(),   //
       // d = $(document).width(),   //utiliser pour la fonction de scroll sans stellar
       // c = $(this).width();      //

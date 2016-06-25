@@ -1,0 +1,371 @@
+commit b20011ed46a77ea87c39fa0165214cd891f47adf
+Author: antoine <antoine@localhost.localdomain>
+Date:   Sat Jun 25 03:08:15 2016 +0200
+
+    responsive fini mais  pb animation silhouete
+
+commit bd12bc0be73070e2b23d8d5e0031731c7cff0ead
+Author: antoine <antoine@localhost.localdomain>
+Date:   Fri Jun 24 16:43:49 2016 +0200
+
+    responsive, un peu mais pas trop
+
+commit ad732265d37448e21b63ee67381e304e185086b7
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 16:33:10 2016 +0200
+
+    la ça marche mieux
+
+commit fe3f481899adcc3e21899a97219f83fd3dac4fa8
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 16:10:21 2016 +0200
+
+    test
+
+commit 50d5f61259f835b5d68ff81a94c4b716c06b9c30
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 14:58:26 2016 +0200
+
+    test2
+
+commit 168e2840830587f394aab5c0dfe8aa1cf95e2033
+Merge: 4fd1e4d f9075b6
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 14:04:20 2016 +0200
+
+    Merge branch 'master' of https://github.com/antoinelema/antoinelema.github.io
+
+commit f9075b65a5bbdae8874aa6b05791b4b22b904532
+Merge: cd5a646 4ac5055
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 12:17:18 2016 +0200
+
+    Merge pull request #4 from antoinelema/dev
+    
+    Merge pull request #3 from LukeVideo/master
+
+commit 4ac50556186937a73e1151ae113cfc4960f005d2
+Merge: 1733032 337cf60
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 11:41:36 2016 +0200
+
+    Merge pull request #3 from LukeVideo/master
+    
+    minor typo corrections again
+
+commit cd5a6463255ea6d806f5aac76c108c8a113d91bb
+Merge: 1733032 337cf60
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 11:40:16 2016 +0200
+
+    Merge pull request #2 from LukeVideo/dev
+    
+    minor typo corrections again
+
+commit 337cf605bc77105c7e08780753640753913918a1
+Author: Luke Video <lukevideo@localhost.localdomain>
+Date:   Wed Jun 22 11:30:28 2016 +0200
+
+    minor typo corrections again
+
+commit 4fd1e4dd6c9ba19a116d522dcf2e7b8cd4e34b5c
+Merge: f5722cc 1733032
+Author: antoine <antoine@localhost.localdomain>
+Date:   Wed Jun 22 11:11:08 2016 +0200
+
+    Merge branch 'master' of https://github.com/antoinelema/antoinelema.github.io
+
+commit f5722cc36f469d1db1c0e6814ff744138b22cfcd
+Author: antoine <antoine@localhost.localdomain>
+Date:   Wed Jun 22 11:10:50 2016 +0200
+Date:   Wed Jun 22 11:10:50 2016 +0200
+    minor typo corrections again
+
+commit cd5a6463255ea6d806f5aac76c108c8a113d91bb
+Merge: 1733032 337cf60
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 11:40:16 2016 +0200
+
+    Merge pull request #2 from LukeVideo/dev
+    
+    minor typo corrections again
+
+commit 337cf605bc77105c7e08780753640753913918a1
+Author: Luke Video <lukevideo@localhost.localdomain>
+Date:   Wed Jun 22 11:30:28 2016 +0200
+
+    minor typo corrections again
+
+commit 4fd1e4dd6c9ba19a116d522dcf2e7b8cd4e34b5c
+Merge: f5722cc 1733032
+Author: antoine <antoine@localhost.localdomain>
+Date:   Wed Jun 22 11:11:08 2016 +0200
+
+    Merge branch 'master' of https://github.com/antoinelema/antoinelema.github.i
+o
+
+commit f5722cc36f469d1db1c0e6814ff744138b22cfcd
+Author: antoine <antoine@localhost.localdomain>
+Date:   Wed Jun 22 11:10:50 2016 +0200
+commit b20011ed46a77ea87c39fa0165214cd891f47adf
+Author: antoine <antoine@localhost.localdomain>
+Date:   Sat Jun 25 03:08:15 2016 +0200
+
+    responsive fini mais  pb animation silhouete
+
+commit bd12bc0be73070e2b23d8d5e0031731c7cff0ead
+commit b20011ed46a77ea87c39fa0165214cd891f47adf
+Author: antoine <antoine@localhost.localdomain>
+Date:   Sat Jun 25 03:08:15 2016 +0200
+
+    responsive fini mais  pb animation silhouete
+
+commit bd12bc0be73070e2b23d8d5e0031731c7cff0ead
+Author: antoine <antoine@localhost.localdomain>
+Date:   Fri Jun 24 16:43:49 2016 +0200
+
+    responsive, un peu mais pas trop
+
+commit ad732265d37448e21b63ee67381e304e185086b7
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 16:33:10 2016 +0200
+
+    la ça marche mieux
+
+commit fe3f481899adcc3e21899a97219f83fd3dac4fa8
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 16:10:21 2016 +0200
+
+    test
+
+commit 50d5f61259f835b5d68ff81a94c4b716c06b9c30
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 14:58:26 2016 +0200
+
+    test2
+
+commit 168e2840830587f394aab5c0dfe8aa1cf95e2033
+Merge: 4fd1e4d f9075b6
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 14:04:20 2016 +0200
+
+    Merge branch 'master' of https://github.com/antoinelema/antoinelema.github.io
+
+commit f9075b65a5bbdae8874aa6b05791b4b22b904532
+Merge: cd5a646 4ac5055
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 12:17:18 2016 +0200
+
+    Merge pull request #4 from antoinelema/dev
+    
+    Merge pull request #3 from LukeVideo/master
+
+commit 4ac50556186937a73e1151ae113cfc4960f005d2
+Merge: 1733032 337cf60
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 11:41:36 2016 +0200
+
+    Merge pull request #3 from LukeVideo/master
+    
+    minor typo corrections again
+
+commit cd5a6463255ea6d806f5aac76c108c8a113d91bb
+Merge: 1733032 337cf60
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 11:40:16 2016 +0200
+
+    Merge pull request #2 from LukeVideo/dev
+    
+    minor typo corrections again
+
+commit 337cf605bc77105c7e08780753640753913918a1
+Author: Luke Video <lukevideo@localhost.localdomain>
+Date:   Wed Jun 22 11:30:28 2016 +0200
+
+    minor typo corrections again
+
+commit 4fd1e4dd6c9ba19a116d522dcf2e7b8cd4e34b5c
+Merge: f5722cc 1733032
+Author: antoine <antoine@localhost.localdomain>
+Date:   Wed Jun 22 11:11:08 2016 +0200
+
+    Merge branch 'master' of https://github.com/antoinelema/antoinelema.github.io
+
+commit f5722cc36f469d1db1c0e6814ff744138b22cfcd
+Author: antoine <antoine@localhost.localdomain>
+Date:   Wed Jun 22 11:10:50 2016 +0200
+    minor typo corrections again
+
+commit 337cf605bc77105c7e08780753640753913918a1
+Author: Luke Video <lukevideo@localhost.localdomain>
+Date:   Wed Jun 22 11:30:28 2016 +0200
+
+    minor typo corrections again
+
+commit 4fd1e4dd6c9ba19a116d522dcf2e7b8cd4e34b5c
+Merge: f5722cc 1733032
+Author: antoine <antoine@localhost.localdomain>
+Date:   Wed Jun 22 11:11:08 2016 +0200
+Date:   Wed Jun 22 11:41:36 2016 +0200
+commit b20011ed46a77ea87c39fa0165214cd891f47adf
+Author: antoine <antoine@localhost.localdomain>
+Date:   Sat Jun 25 03:08:15 2016 +0200
+
+    responsive fini mais  pb animation silhouete
+
+commit bd12bc0be73070e2b23d8d5e0031731c7cff0ead
+Author: antoine <antoine@localhost.localdomain>
+Date:   Fri Jun 24 16:43:49 2016 +0200
+
+    responsive, un peu mais pas trop
+
+commit ad732265d37448e21b63ee67381e304e185086b7
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 16:33:10 2016 +0200
+
+    la ça marche mieux
+
+commit fe3f481899adcc3e21899a97219f83fd3dac4fa8
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 16:10:21 2016 +0200
+
+    test
+
+commit 50d5f61259f835b5d68ff81a94c4b716c06b9c30
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 14:58:26 2016 +0200
+
+    test2
+
+commit 168e2840830587f394aab5c0dfe8aa1cf95e2033
+Merge: 4fd1e4d f9075b6
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 14:04:20 2016 +0200
+
+    Merge branch 'master' of https://github.com/antoinelema/antoinelema.github.io
+
+commit f9075b65a5bbdae8874aa6b05791b4b22b904532
+Merge: cd5a646 4ac5055
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 12:17:18 2016 +0200
+
+    Merge pull request #4 from antoinelema/dev
+    
+    Merge pull request #3 from LukeVideo/master
+
+commit 4ac50556186937a73e1151ae113cfc4960f005d2
+Merge: 1733032 337cf60
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 11:41:36 2016 +0200
+
+
+antoine@debian:~/site_perso$ touch log.txt 
+antoine@debian:~/site_perso$ ls
+css  index.html  javascript  log.txt  ressource
+antoine@debian:~/site_perso$ nano log.txt 
+antoine@debian:~/site_perso$ git log
+commit b20011ed46a77ea87c39fa0165214cd891f47adf
+Author: antoine <antoine@localhost.localdomain>
+Date:   Sat Jun 25 03:08:15 2016 +0200
+
+    responsive fini mais  pb animation silhouete
+
+commit bd12bc0be73070e2b23d8d5e0031731c7cff0ead
+Author: antoine <antoine@localhost.localdomain>
+Date:   Fri Jun 24 16:43:49 2016 +0200
+
+    responsive, un peu mais pas trop
+
+commit ad732265d37448e21b63ee67381e304e185086b7
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 16:33:10 2016 +0200
+
+    la ça marche mieux
+
+commit fe3f481899adcc3e21899a97219f83fd3dac4fa8
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 16:10:21 2016 +0200
+
+    test
+
+commit 50d5f61259f835b5d68ff81a94c4b716c06b9c30
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 14:58:26 2016 +0200
+
+    test2
+
+commit 168e2840830587f394aab5c0dfe8aa1cf95e2033
+Merge: 4fd1e4d f9075b6
+Author: antoine <antoine@localhost.localdomain>
+Date:   Thu Jun 23 14:04:20 2016 +0200
+
+    Merge branch 'master' of https://github.com/antoinelema/antoinelema.github.io
+
+commit f9075b65a5bbdae8874aa6b05791b4b22b904532
+Merge: cd5a646 4ac5055
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 12:17:18 2016 +0200
+
+    Merge pull request #4 from antoinelema/dev
+    
+    Merge pull request #3 from LukeVideo/master
+
+commit 4ac50556186937a73e1151ae113cfc4960f005d2
+Merge: 1733032 337cf60
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 11:41:36 2016 +0200
+
+    Merge pull request #3 from LukeVideo/master
+    
+    minor typo corrections again
+
+commit cd5a6463255ea6d806f5aac76c108c8a113d91bb
+Merge: 1733032 337cf60
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 11:40:16 2016 +0200
+
+    Merge pull request #2 from LukeVideo/dev
+    
+    minor typo corrections again
+
+commit 337cf605bc77105c7e08780753640753913918a1
+Author: Luke Video <lukevideo@localhost.localdomain>
+Date:   Wed Jun 22 11:30:28 2016 +0200
+
+    minor typo corrections again
+
+commit 4fd1e4dd6c9ba19a116d522dcf2e7b8cd4e34b5c
+Merge: f5722cc 1733032
+Author: antoine <antoine@localhost.localdomain>
+Date:   Wed Jun 22 11:11:08 2016 +0200
+
+    Merge branch 'master' of https://github.com/antoinelema/antoinelema.github.io
+
+commit f5722cc36f469d1db1c0e6814ff744138b22cfcd
+Author: antoine <antoine@localhost.localdomain>
+Date:   Wed Jun 22 11:10:50 2016 +0200
+
+    2eme commit
+
+commit 1733032546ee31e077f27e1dcbd0574d0a80790a
+Merge: 85522c1 63eeb53
+Author: antoinelema <antoinelemariey@gmail.com>
+Date:   Wed Jun 22 10:25:55 2016 +0200
+
+    Merge pull request #1 from LukeVideo/master
+    
+    minor typo corrections
+
+commit 63eeb53fe39d42d4df319fb54daf77c6c41ddaaf
+Author: Luke Video <lukevideo@localhost.localdomain>
+Date:   Wed Jun 22 10:21:11 2016 +0200
+
+    minor typo corrections
+
+commit 85522c1206ffbb02e862b7a3e8fbe4feda7bda45
+Author: antoine <antoine@localhost.localdomain>
+Date:   Wed Jun 22 09:30:55 2016 +0200
+
+    first commit
+(END)
+

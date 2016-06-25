@@ -18,7 +18,8 @@
 
 
 body{
-  background-image: url(../ressource/pont_sydney2.png);
+  background-image: url(../ressource/pont2.jpg);
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 600vw;
@@ -84,6 +85,7 @@ body{
 .ecran4 {
 
 }
+
 .ecran4 .formation{
   color: white;
   margin-top:5vh;
@@ -125,7 +127,7 @@ body{
 #moi{
   /*width: 15%;
   height: auto;*/
-  margin-left:30vh;
+  marginleft:0;
   margin-top: 13%;
   position: fixed;
   z-index: 1000;
@@ -202,12 +204,12 @@ body{
 
 
 
-/*== l'overlay dans le haut*/
+/* == l'overlay dans le haut*/
 .overlay{
   background-color: rgba(255,255,255,0.7);
   position: fixed;
   /*height: 400px;*/
-  width: 100vw;
+  width: 110vw;
   z-index: 100;
   display: none;
 }
