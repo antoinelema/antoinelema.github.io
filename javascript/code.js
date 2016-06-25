@@ -12,7 +12,6 @@
 
 
 $(document).ready(function(){
-
   // $("body").mousewheel(function(event, delta) { //
   //   this.scrollLeft -= (delta * 30);            //fonction qui transforme le scrolling vertical en scrolling horizontal
   //   event.preventDefault();                     //
@@ -45,13 +44,21 @@ function animateOverlay(){
 
   var i=1; //la variable i sert à indiquer sur quelle ecran nous nous trouvons
 
+function ecran1(){
+  if (i==1){
+    $('#moi').css("left", "30vw");
+  }
+
+}
+
+
 
 // == fadeInOut //fonction pour que les flèches, le menue et la silhouete disparraissent
   function fadeInOut(){
     if (i==1) {
       $(".btn2").hide();
       $(".btn1, .menuradio").fadeOut("fast").delay( 400 ).fadeIn("slow");
-      $('#moi').css("margin-left", "30vw");
+      ecran1();
       $("#moi").fadeOut("fast").delay( 500 );
       // $('#moi').removeAttr('style');
       $('#moi').fadeIn("fast");
@@ -211,4 +218,10 @@ if (i==1){$(".scrollBack").hide();};
 
   });
 
+// if (window.matchMedia("(max-width: 990px)").matches){
+//   $("#moi").addClass(moi);
+// }
+// else {
+//   $("#moi").removeClass(moi);
+// }
 });

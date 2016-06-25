@@ -13,7 +13,8 @@
 /* == les flèches de navigation*/
 /* == navigation en forme de radio dans le bas*/
 /* == l'overlay dans le haut*/
-
+/* == pour tablette*/
+/* == les animations*/
 
 
 body{
@@ -65,10 +66,17 @@ body{
 }
 
 /* == ecran 3*/
+.ecran3 h2{
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.7em;
+  text-decoration:underline;
+}
+
 .infoperso{
   margin-top: 17vh;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 
@@ -78,8 +86,8 @@ body{
 }
 .ecran4 .formation{
   color: white;
-  margin-top:15vh;
-  font-size: 1.3em;
+  margin-top:5vh;
+  font-size: 1.2em;
 }
 .ecran4 .exp{
   background-color: rgba(255, 255, 255, 0.7);
@@ -87,7 +95,7 @@ body{
   padding-top: 1%;
   /*margin-top: 25vh;*/
   border-radius: 12px;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 /* == ecran5 text*/
@@ -109,13 +117,16 @@ body{
   color:white;
 }
 
+.ecran6 .bouton {
+  margin-top: 3vh;
+}
 
 /* == la silhouete*/
 #moi{
   /*width: 15%;
   height: auto;*/
-  /*margin-left:30vw;*/
-  margin-top: 15%;
+  margin-left:30vh;
+  margin-top: 13%;
   position: fixed;
   z-index: 1000;
 }
@@ -154,7 +165,7 @@ body{
 
 /* == navigation en forme de radio dans le bas*/
 .menuradio{
-  margin-top: 86vh;
+  margin-top: 94vh;
   z-index: 1000;
   position: fixed;
   /*margin-left: 30vw;*/
@@ -241,7 +252,17 @@ body{
 }
 
 
-
+/* == pour tablette*/
+@media screen and (max-width: 990px) {
+  #moi{
+    opacity: 0;
+  }
+  .ecran4 .formation{font-size: 1.3em;}
+  .ecran4 .exp{font-size: 1.2em;}
+}
+/*.moi{
+  position: relative !important;
+}*/
 
 
 

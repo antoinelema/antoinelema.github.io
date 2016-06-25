@@ -3,7 +3,7 @@
 }
 
 h1{
-  color:red !important;
+  /*color:red !important;*/
 }
 
 #moi{
@@ -19,12 +19,14 @@ h1{
 }
 
 .content{
-  width: 97vw;
-}
+  height: 105vh;
+  width: 100vw;
+  left: 0vw;
+  }
 
 .ecran1 h1{
   top:40vh;
-  margin-left: auto;
+  margin-left: 30vw;
   margin-right: auto;
   width: 50vw;
 }
